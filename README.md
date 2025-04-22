@@ -1,0 +1,1 @@
+1. installed dependencies - express, puppeteer, dotenv

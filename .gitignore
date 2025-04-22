@@ -1,0 +1,44 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Coverage reports
+coverage/
+
+# Parcel / Next.js / Vite
+.next/
+out/
+.cache/
+
+# Svelte / Astro / Remix / Others
+.svelte-kit/
+.netlify/
+
+# Misc
+*.local
+*.zip
+*.tgz
+
+# Optional: ignore screenshots or exports
+exports/
+screenshots/
