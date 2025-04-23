@@ -13,7 +13,6 @@ const autoLogin = async (page) => {
 			console.error('Login button not found');
 		}
 		await page.waitForNavigation({ waitUntil: 'networkidle0' });
-		console.log('Login successful');
 	} catch (error) {
 		console.error('Error in autoLogin:', error);
 	}
